@@ -1,13 +1,13 @@
 {
   "name": "basic_weather",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple weather dashboard app",
   "main": "server.js",
   "scripts": {
     "devStart": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Matthew R. Vaden",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
