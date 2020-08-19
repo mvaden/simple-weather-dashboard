@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+            rel="stylesheet">
+        <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvIlK-PE7TMBZselek8auGz6du_RZ99ZM&libraries=places">
+        </script>
+        <script defer src="script.js"></script>
+        <title>My Weather App</title>
+    </head>
+    <body>
+        <main>
+            <div class="main-container">
+                <div class="row">
+                    <div class="header-container">
+                        <h1>A Simple Weather Dashboard</h1>
+                    </div>
+                    <div class="f-width">
+                        <div class="conditions-container">
+                            <h2 class="condition" id="condition">Awaiting current conditions...</h2>
+                            <h3 class="location" id="location"></h3>
+                            <div>
+                                <div class="temperature">
+                                    <p>
+                                        <span id="wind_mph"></span>
+                                        <span id="wind_dir"></span>
+                                    </p>
+                                </div>
+                                <div class="temperature">
+                                    <p id="temperature"></p>
+                                </div>
+                                <div class="pressure">
+                                    <p id="pressure"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-container">
+                        <input type="text" class="search"
+                         placeholder="Enter a town or city"
+                        name="" id="index-input-city-search">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <p class="row">
+                    <small>
+                        Powered by <a href="https://www.weatherapi.com/">WeatherAPI</a>
+                    </small>
+                </p>
+            <div>
+        </footer>
+    </body>
+</html>
